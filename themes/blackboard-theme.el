@@ -6,7 +6,7 @@
 ;; All patches welcome
 
 ;; --------------
-;; This porting makes blackboard no longer rely on color-theme package, 
+;; This porting makes blackboard no longer rely on color-theme package,
 ;; since Emacs has it's theme mechanism from Emacs 24.
 
 ;; How to use:
@@ -19,13 +19,13 @@
 ;;; blackboard-theme
 
 ;;; Code
-(deftheme blackboard 
+(deftheme blackboard
   "Based on Color theme by JD Huntington, which based off the TextMate Blackboard theme, created 2008-11-27")
 
 (custom-theme-set-faces
  `blackboard
  ;; `(default ((t (:background "#0C1021" :foreground "#F8F8F8" ))))
- `(default ((t (:background "black" :foreground "#F8F8F8" ))))
+ `(default ((t (:background "#0C0C0C" :foreground "#F8F8F8" ))))
  `(bold ((t (:bold t))))
  `(bold-italic ((t (:bold t))))
  `(border-glyph ((t (nil))))
